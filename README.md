@@ -38,7 +38,7 @@
 
 1. Clone this repository locally
 2. Open Black Box terminal
-3. Go to `Preferences --> General` and scroll down to Theme
+3. Go to `Preferences --> Terminal` and scroll down to Theme
 4. Click on the link `Open themes folder`
 5. Copy themes files from cloned repository `src` folder to Black Box themes folder
 6. Restart Black Box
