@@ -40,7 +40,7 @@
 2. Open Black Box terminal
 3. Go to `Preferences --> Terminal` and scroll down to Theme
 4. Click on the link `Open themes folder`
-5. Copy themes files from cloned repository `src` folder to Black Box themes folder
+5. Copy themes files from cloned repository `themes` folder to Black Box themes folder
 6. Restart Black Box
 7. Go again to `Preferences --> General` and scroll down to Theme
 8. Select Your favourite theme

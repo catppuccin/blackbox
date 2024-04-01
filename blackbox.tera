@@ -1,0 +1,43 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/Catppuccin-{{ flavor.identifier | capitalize }}.json"
+---
+{%- set palette = flavor.colors -%}
+{
+  "name": "Catppuccin-{{ flavor.name }}",
+  "comment": "Soothing pastel theme for the high-spirited!",
+  "background-color": "#{{ palette.base.hex }}",
+  "foreground-color": "#{{ palette.text.hex }}",
+  "badge-color": "#{{ palette.surface2.hex }}",
+  "bold-color": "#{{ palette.surface2.hex }}",
+  "cursor-background-color": "#{{ palette.rosewater.hex }}",
+  "cursor-foreground-color": "#{{ palette.base.hex }}",
+  "highlight-background-color": "#{{ palette.rosewater.hex }}",
+  "highlight-foreground-color": "#{{ palette.base.hex }}",
+  "palette": [
+    "#{{ palette.subtext1.hex }}",
+    "#{{ palette.red.hex }}",
+    "#{{ palette.green.hex }}",
+    "#{{ palette.yellow.hex }}",
+    "#{{ palette.blue.hex }}",
+    "#{{ palette.pink.hex }}",
+    "#{{ palette.teal.hex }}",
+    "#{{ palette.surface2.hex }}",
+    "#{{ palette.subtext0.hex }}",
+    "#{{ palette.red.hex }}",
+    "#{{ palette.green.hex }}",
+    "#{{ palette.yellow.hex }}",
+    "#{{ palette.blue.hex }}",
+    "#{{ palette.pink.hex }}",
+    "#{{ palette.teal.hex }}",
+    "#{{ palette.surface1.hex }}"
+  ],
+  "use-badge-color": false,
+  "use-bold-color": false,
+  "use-cursor-color": true,
+  "use-highlight-color": true,
+  "use-theme-colors": false
+}
